@@ -2603,7 +2603,7 @@ input, select, textarea {
 			}
 
 		ul.icons.major li {
-			padding: 20px;
+			padding: 56px;
 		}
 
 			ul.icons.major li .icon:before {
@@ -4176,4 +4176,8 @@ input, select, textarea {
 	#scroll:hover {
 		border-radius: 50%;
 		width: 3.5%;
+	}
+
+	#skills-list {
+		display: table-cell;
 	}
