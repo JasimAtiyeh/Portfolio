@@ -2417,7 +2417,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 100px 2em 100px;
 		padding-left: 1em;
 	}
 
@@ -2714,7 +2714,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 0 2.5em 0;
+		margin: 0 100px 2.5em 100px;
 		text-align: center;
 	}
 
@@ -3631,6 +3631,7 @@ input, select, textarea {
 		background-size: auto, cover;
 		height: 100vh;
 		min-height: 35em;
+		flex-direction: column;
 	}
 
 		#header input[type="submit"],
@@ -4149,4 +4150,30 @@ input, select, textarea {
 
 	#skill {
 		font-size: 100px;
+	}
+
+	#projects-header {
+		margin-bottom: 110px;
+	}
+
+	.content-photo {
+		display: flex;
+	}
+
+	#scroll {
+		padding: 0px;
+		box-shadow: none !important;
+		/* margin: 0px; */
+		transition: transparent 2ms ease;
+		transition-delay: 10s;
+		/* opacity: 1; */
+	}
+
+	#scroll::before {
+		margin: 0;
+	}
+
+	#scroll:hover {
+		border-radius: 50%;
+		width: 3.5%;
 	}
