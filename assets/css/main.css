@@ -3611,7 +3611,7 @@ input, select, textarea {
 
 	#header {
 		background: linear-gradient(0deg, rgba(186, 226, 227, 1) 0%, rgba(34, 193, 195, 1) 100%);
-		color: #d1e5f9;
+		color: rgba(186, 226, 227, 1);
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -3666,7 +3666,7 @@ input, select, textarea {
 			#header .button.primary {
 				box-shadow: none;
 				background-color: #ffffff;
-				color: #4696e5 !important;
+				color: rgba(34, 193, 195, 1) !important;
 			}
 
 		#header label {
