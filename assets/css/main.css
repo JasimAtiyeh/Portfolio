@@ -3610,7 +3610,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		background: linear-gradient(110deg, #4696e5 60%, #205081 60%);
+		background: linear-gradient(0deg, rgba(186, 226, 227, 1) 0%, rgba(34, 193, 195, 1) 100%);
 		color: #d1e5f9;
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
