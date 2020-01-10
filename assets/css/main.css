@@ -316,7 +316,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #4696e5;
+			color: rgba(34, 193, 195, 1);
 		}
 
 	strong, b {
@@ -3325,7 +3325,7 @@ input, select, textarea {
 			}
 
 				.wrapper.style2 a:hover {
-					color: #4696e5;
+					color: rgba(34, 193, 195, 1);
 				}
 
 			.wrapper.style2 strong, .wrapper.style2 b {
@@ -3648,7 +3648,8 @@ input, select, textarea {
 			#header input[type="button"]:hover,
 			#header button:hover,
 			#header .button:hover {
-				background-color: rgba(255, 255, 255, 0.075);
+				color: rgba(186, 226, 227, 1);
+				background-color: rgba(34, 193, 195, 1);
 			}
 
 			#header input[type="submit"]:active,
@@ -4091,7 +4092,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				color: #4696e5;
+				color: rgba(34, 193, 195, 1);
 			}
 
 		#footer strong, #footer b {
