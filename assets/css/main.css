@@ -316,7 +316,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: rgba(34, 193, 195, 1);
+			color: rgba(125, 125, 125, 1);
 		}
 
 	strong, b {
@@ -3610,8 +3610,9 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		background: linear-gradient(0deg, rgba(186, 226, 227, 1) 0%, rgba(34, 193, 195, 1) 100%);
-		color: rgba(186, 226, 227, 1);
+		/* background: linear-gradient(0deg, rgba(186, 226, 227, 1) 0%, rgba(34, 193, 195, 1) 100%); */
+		/* color: rgba(186, 226, 227, 1); */
+		background: url('../../images/skyline.jpg');
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -3631,6 +3632,8 @@ input, select, textarea {
 		height: 100vh;
 		min-height: 35em;
 		flex-direction: column;
+		background-size: cover;
+		transform: scaleX(-1);
 	}
 
 		#header input[type="submit"],
@@ -3800,7 +3803,7 @@ input, select, textarea {
 		#header a {
 			color: inherit;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
-			color: #ffffff;
+			color: #1ec0c3;
 		}
 
 		#header strong, #header b {
@@ -4092,7 +4095,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				color: rgba(34, 193, 195, 1);
+				color: rgb(125, 125, 125);
 			}
 
 		#footer strong, #footer b {
@@ -4158,6 +4161,7 @@ input, select, textarea {
 
 	.content-photo {
 		display: flex;
+		transform: scaleX(-1);
 	}
 
 	#scroll {
@@ -4171,6 +4175,7 @@ input, select, textarea {
 
 	#scroll::before {
 		margin: 0;
+		font-size: 28px;
 	}
 
 	#scroll:hover {
